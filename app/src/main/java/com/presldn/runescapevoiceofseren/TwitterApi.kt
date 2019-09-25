@@ -11,7 +11,6 @@ interface TwitterApi {
     fun authenticate(@Header("Authorization") authorization: String,
                      @Field("grant_type") grantType: String): Observable<TokenType>
 
-    @FormUrlEncoded
-    @GET("/1.1/search/tweets.json?q=from")
-    fun getTweets(@Header("Authorization") authorization: String)
+    @GET("/1.1/statuses/user_timeline.json?screen_name=jagexclock&count=1")
+    fun getTweets(@Header("Authorization") authorization: String): Observable<List<Tweet>>
 }

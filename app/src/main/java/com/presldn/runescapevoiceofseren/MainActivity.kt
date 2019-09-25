@@ -31,5 +31,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getTweets(accessToken: String) {
+        subscription = RetrofitClient.getTwitterApi()
+            .getTweets("Bearer $accessToken")
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe({
+                Log.d(this.packageName, "response: $it")
+            },
+                {
+                    Log.d(this.packageName, "response: ${it.message}")
+                }
+            )
     }
 }
