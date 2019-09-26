@@ -12,5 +12,5 @@ interface TwitterApi {
                      @Field("grant_type") grantType: String): Observable<TokenType>
 
     @GET("/1.1/statuses/user_timeline.json?screen_name=jagexclock&count=1")
-    fun getTweets(@Header("Authorization") authorization: String): Observable<List<Tweet>>
+    fun getRecentTweet(@Header("Authorization") authorization: String): Observable<List<Tweet>>
 }
