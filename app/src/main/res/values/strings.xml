@@ -1,3 +1,87 @@
 <resources>
-    <string name="app_name">RunescapeVoiceOfSeren</string>
+    <string name="app_name">RuneScape VOS</string>
+    <string name="title_home">Home</string>
+    <string name="title_clans">Clans</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--Clan names-->
+    <string name="cadarn_name">Cadarn</string>
+    <string name="hefin_name">Hefin</string>
+    <string name="iorwerth_name">Iorwerth</string>
+    <string name="ithell_name">Ithell</string>
+    <string name="crwys_name">Crwys</string>
+    <string name="amlodd_name">Amlodd</string>
+    <string name="trahaearn_name">Trahaearn</string>
+    <string name="meilyr_name">Meilyr</string>
+    <string name="clan_symbol_desc">Clan symbol</string>
+    <string name="all_clans_header">All clans</string>
+
+    <!--clan info-->
+    <string-array name="cadarn_info">
+        <item>When defeating a Cadarn ranger or magus, 200 Ranged or Magic experience, respectively,
+            is gained, regardless of the combat style used.</item>
+    </string-array>
+    <string-array name="hefin_info">
+        <item>20% more base Agility XP whilst training agility on the Hefin Agility Course. The
+            rate at which velocity is gained on the agility course is doubled.</item>
+        <item>While doing laps on the Hefin Agility Course, an additional 25% of base Agility
+            experience is gained in the Prayer skill for each action performed.</item>
+        <item>The collectors insignia will not lose charge.</item>
+        <item>20% more base Prayer XP from cleansing the Corrupted Seren Stone.</item>
+        <item>Increased chance of the window and light creature shortcuts appearing on the
+            Hefin Agility Course.</item>
+    </string-array>
+    <string-array name="iorwerth_info">
+        <item>When defeating an Iorwerth guard or scout, 100 Attack experience and 100 Strength
+            experience are gained, regardless of the combat style used.</item>
+        <item>A better chance to get Prifddinas-related items from the crystal chest,
+            including corrupted ore, crystal tree blossoms and crystal</item>
+        <item>When defeating monsters in the Rush of Blood D&amp;D, you will gain some Slayer
+            experience from ALL of the monsters.</item>
+    </string-array>
+    <string-array name="ithell_info">
+        <item>20% more base Crafting and Construction XP from training using the harps. The harps
+            have a significantly lower chance of losing tune while playing.</item>
+        <item>20% more base Crafting XP from crafting crystal flasks.</item>
+        <item>Sawmill operator shop stock doubles. It will replenish if it is empty when voice
+            takes effect.</item>
+    </string-array>
+    <string-array name="crwys_info">
+        <item>20% more base Woodcutting XP from cutting ivy, magic logs, and yew logs.
+            All birds nest drops are replaced with crystal geodes.</item>
+        <item>20% more base Farming XP from planting, checking, and harvesting from the bush, herb
+            and elder tree patches. Crops in the district have a chance of skipping growth stages.</item>
+        <item>A chance to spawn a Guthixian butterfly when harvesting from or checking the health
+            of crops in the district.</item>
+    </string-array>
+    <string-array name="amlodd_info">
+        <item>20% more base Summoning XP from making pouches and scrolls, as well as creating 12
+            scrolls per pouch instead of the regular 10.</item>
+        <item>20% more base Divination XP from converting shadow cores, as well as a chance of
+            chronicles spawning after killing a truthful, blissful or manifest shadow.</item>
+    </string-array>
+    <string-array name="trahaearn_info">
+        <item>20% more base Mining XP from ores, gems, and Seren Stones in the district. Mining any
+            type of ore has a chance of yielding corrupted ore.</item>
+        <item>Ore rocks have a chance of changing into harmonised rocks temporarily,
+            allowing the rocks to be mined without running out of ore.</item>
+        <item>20% more base Smithing XP from smelting or smithing any items in the furnaces or on
+            the anvils, except for protean bars. Smelting corrupted ore has a 2-in-9 chance of
+            producing swamp tar.</item>
+        <item>20% more base Farming XP from planting and checking the tree patch, as well as a
+            chance of the tree skipping growth stages.</item>
+    </string-array>
+    <string-array name="meilyr_info">
+        <item>20% more base Farming XP from planting and checking the fruit tree patch, and from
+            checking the harmony pillars. Trees planted in the district will have a chance of
+            skipping growth stages.</item>
+        <item>20% more Herblore XP from making combination potions.</item>
+    </string-array>
+
+    <string-array name="all_clans_info">
+        <item>20% extra base experience from pickpocketing the respective workers.</item>
+        <item>An increased chance to find Golden rocks in the respective clans skill.</item>
+        <item>A chance for a crystal impling to spawn at the herald of one of the affected clans.</item>
+    </string-array>
+
 </resources>
