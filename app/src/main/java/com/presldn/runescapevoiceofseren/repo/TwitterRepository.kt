@@ -1,8 +1,8 @@
 package com.presldn.runescapevoiceofseren.repo
 
+import android.util.Log
 import com.presldn.runescapevoiceofseren.api.RetrofitClient
 import com.presldn.runescapevoiceofseren.model.Tweet
-import com.presldn.runescapevoiceofseren.model.clans
 import com.presldn.runescapevoiceofseren.util.BearerTokenClient
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
@@ -12,7 +12,8 @@ class TwitterRepository {
 
     private lateinit var subscription: Disposable
 
-    private fun authenticate() {
+
+    fun authenticate() {
         subscription = RetrofitClient.getTwitterApi()
             .authenticate(BearerTokenClient.getBearerTokenCredentials(), "client_credentials")
             .subscribeOn(Schedulers.io())
@@ -31,6 +32,7 @@ class TwitterRepository {
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({ tweets ->
+                Log.d("TwitterRepository", "getRecentTweet: $tweets")
                 val activeClans = getActiveClans(tweets[0])
 
             },
@@ -44,12 +46,6 @@ class TwitterRepository {
 
         val activeClans: MutableList<String> = mutableListOf()
 
-        clans.forEach { clan ->
-            if (text.contains(clan)) {
-                activeClans.add(clan)
-            }
-
-        }
         return Pair(activeClans[0], activeClans[1])
     }
 }
