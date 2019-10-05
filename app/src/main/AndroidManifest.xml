@@ -14,12 +14,12 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <service
-            android:name=".TwitterApiService"
+            android:name=".service.TwitterApiService"
             android:enabled="true"
             android:exported="false"></service>
 
         <receiver
-            android:name=".TwitterServiceReceiver"
+            android:name=".service.TwitterServiceReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
@@ -28,7 +28,7 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

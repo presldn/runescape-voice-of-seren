@@ -1,4 +1,4 @@
-package com.presldn.runescapevoiceofseren
+package com.presldn.runescapevoiceofseren.util
 
 import android.util.Base64
 

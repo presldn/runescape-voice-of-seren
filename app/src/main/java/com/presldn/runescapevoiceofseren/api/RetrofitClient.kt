@@ -1,7 +1,7 @@
-package com.presldn.runescapevoiceofseren
+package com.presldn.runescapevoiceofseren.api
 
+import com.presldn.runescapevoiceofseren.util.BASE_URL
 import io.reactivex.schedulers.Schedulers
-import okhttp3.Interceptor
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory

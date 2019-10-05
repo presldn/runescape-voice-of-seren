@@ -1,4 +1,4 @@
-package com.presldn.runescapevoiceofseren
+package com.presldn.runescapevoiceofseren.service
 
 import android.content.BroadcastReceiver
 import android.content.Context

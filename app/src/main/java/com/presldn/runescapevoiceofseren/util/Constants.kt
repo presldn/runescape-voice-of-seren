@@ -1,7 +1,4 @@
-package com.presldn.runescapevoiceofseren
-
-import android.util.Base64
-import java.util.*
+package com.presldn.runescapevoiceofseren.util
 
 const val BASE_URL = "https://api.twitter.com"
 const val API_KEY = "IxxRJMQSQ74mciogH5ptFHsQf"

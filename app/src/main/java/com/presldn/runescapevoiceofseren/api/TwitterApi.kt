@@ -1,7 +1,8 @@
-package com.presldn.runescapevoiceofseren
+package com.presldn.runescapevoiceofseren.api
 
+import com.presldn.runescapevoiceofseren.model.TokenType
+import com.presldn.runescapevoiceofseren.model.Tweet
 import io.reactivex.Observable
-import okhttp3.ResponseBody
 import retrofit2.http.*
 
 interface TwitterApi {

@@ -1,5 +1,9 @@
-package com.presldn.runescapevoiceofseren
+package com.presldn.runescapevoiceofseren.repo
 
+import com.presldn.runescapevoiceofseren.api.RetrofitClient
+import com.presldn.runescapevoiceofseren.model.Tweet
+import com.presldn.runescapevoiceofseren.model.clans
+import com.presldn.runescapevoiceofseren.util.BearerTokenClient
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers

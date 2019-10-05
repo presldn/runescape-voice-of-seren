@@ -1,4 +1,4 @@
-package com.presldn.runescapevoiceofseren
+package com.presldn.runescapevoiceofseren.model
 
 import com.google.gson.annotations.SerializedName
 

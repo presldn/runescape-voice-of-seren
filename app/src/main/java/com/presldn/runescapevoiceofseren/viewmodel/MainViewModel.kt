@@ -1,4 +1,4 @@
-package com.presldn.runescapevoiceofseren
+package com.presldn.runescapevoiceofseren.viewmodel
 
 import androidx.lifecycle.ViewModel
 
